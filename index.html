@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>E-commerce</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body >
+    <header >
+        <nav class="flex items-center justify-between md:px-20 md:py-5 p-3">
+            <div class="flex  items-center gap-5 ">
+                <button class=" md:hidden"><img src="./assets/icons/icon-menu.svg"></button>
+                <img src="./assets/logo.svg">
+                <ul class="max-md:hidden flex  gap-5  ms-5 text-[#B6BCC8] ">
+                    <li class="md:hover:underline md:hover:underline-offset-4 md:hover:decoration-[#FF7C19]">
+                        <a>
+                            Collections
+                        </a>
+                    </li>
+                    <li class="md:hover:underline md:hover:underline-offset-4 md:hover:decoration-[#FF7C19]">
+                        <a>
+                            Men
+                        </a>
+                    </li>
+                    <li class="md:hover:underline md:hover:underline-offset-4 md:hover:decoration-[#FF7C19]">
+                        <a>
+                            Women
+                        </a>
+                    </li>
+                    <li class="md:hover:underline md:hover:underline-offset-4 md:hover:decoration-[#FF7C19]">
+                        <a>
+                            About
+                        </a>
+                    </li>
+                    <li class="md:hover:underline md:hover:underline-offset-4 md:hover:decoration-[#FF7C19]">
+                        <a>
+                            Contact
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+
+            </div>
+            <div class="flex items-center gap-3 md:gap-5">
+                <button>
+                    <img src="./assets/icons/icon-cart.svg">
+                </button>
+                <button>
+                    <img src="./assets/images/image-avatar.png" class="w-6 h-6 md:w-10 h-7">
+                </button>
+            </div>
+
+        </nav>
+        <hr class="max-md:hidden md:block my-[5px]" />
+    </header>
+    <main class="md:mt-20">
+        <section class="md:flex md:justify-evenly gap-20 max-w-screen-xl m-auto">
+            <div class="relative h-[400px] md:flex   ">
+                <img src="./assets/images/image-product-1.jpg" class="object-cover w-full h-full ">
+                <div class="absolute  top-0 w-full h-full md:hidden">
+                    <div class="flex justify-between items-center h-full mx-3">
+                        <img src="./assets/icons/icon-previous.svg" class="bg-white p-2 rounded-full w-7 h-7 object-cover">
+                        <img src="./assets/icons/icon-next.svg" class="bg-white p-2 rounded-full w-7 h-7 object-cover">
+                    </div>
+                </div>
+                
+            </div>
+            <div class="mt-8 p-2 md:w-[600px]  md:h-[350px] md:mt-16 md:p-10">
+                <p class="text-[#FF7C19] font-bold text-sm ">SNEAKERS COMPANY</p>
+                <h1 class="text-[#1C1F25] font-bold text-xl md:text-3xl">Fall Limited Edition Sneakers</h1>
+                <p class="mt-2 text-[#B6BCC8] ">These low-profile sneakers are your perfect casual wear companion.
+                    Featuring a
+                    durable rubber outer sole,
+                    they'll withstand everything the weather can offer</p>
+                <div class="max-sm:flex justify-between mt-5">
+                    <div class="flex gap-5">
+                        <h2 class="font-bold">$125.00</h2>
+                        <p class="bg-[#FFEDE0] px-2 block text-[#FF7C19] font-bold ">50%</p>
+                    </div>
+                    <div>
+                        <p class="text-[#B6BCC8] line-through	">$250.00</p>
+                    </div>
+                </div>
+                <div class="md:flex md:justify-between  md:items-center">
+                    <div class="flex justify-between bg-[#F6F8FD] p-3 mt-5 rounded-xl  md:w-[200px]">
+                        <button class="">
+                            <img src="./assets/icons/icon-minus.svg">
+    
+                        </button>
+                        <p>0</p>
+                        <button>
+                            <img src="./assets/icons/icon-plus.svg">
+                        </button>
+                    </div>
+                    <div class=" w-96 mx-3">
+                        <button
+                            class="flex mt-5 items-center w-full gap-3 justify-center bg-[#FF7C19] px-5 py-4 rounded-xl">
+                            <img src="./assets/icons/icon-cart-white.svg">
+                            <p class="font-bold text-sm text-white">Add to cart</p>
+                        </button>
+                    </div>
+                </div>
+    
+            </div>
+        </section>
+    </main>
+    
+
+</body>
+
+</html>
